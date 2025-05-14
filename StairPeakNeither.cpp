@@ -8,10 +8,10 @@ int main(void){
         int a,b,c;
         cin >> a >> b >> c;
 
-        if(c > a && c > b){
+        if(a<b && b<c){
             cout << "STAIR" << endl;
         }
-        else if (b > a && b > c){
+        else if (a<b && b > c){
             cout << "PEAK" << endl;
         }
         else{
